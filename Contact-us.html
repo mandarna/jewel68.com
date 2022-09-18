@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<head>
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+    	<title>Contact</title>
+    	<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/Contact.css">
+    	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    	<script src="js/Contact.js"></script>
+    
+</head>
+<body onLoad="document.registration.fullname.focus();">
+	<header>
+        	<div id="logo">
+				<img src="Images/Setia2.jpg" alt="setia" height="110">
+			</div>
+            <div class="topnav" id="myTopnav">
+			<a href="index.html">Home</a>
+			<a href="About-us.html">About</a>
+			<a href="Jewellery.html">Jewellery</a>
+			<a href="Bangles.html">Bangles</a>
+			<a href="Rings.html">Rings</a>
+			<a href="Earrings.html">Earrings</a>
+			<a href="#" class="active">Contact</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    			<i class="fa fa-bars"></i>
+  			</a>
+		</div>
+    </header>
+    <div id="cnt">
+        <h2>Contact Us</h2>
+        <p>Please do not hesitate to reach out to us for any queries or feedback. We are here to create effective solutions for any of your concerns. Kindly fill out the form below, and one of our representatives will get back to you.</p>
+    </div>
+	<div id="expert">
+		<p>We understand that jewellery is personal and you may want answers from someone you can trust. You'll get all that and more with an expert from Setia Jewellers.</p>
+	</div>
+	<div class="clr"></div>
+    <div id="fr">
+    	<form name="registration" onSubmit="return formValidation()" method="post">
+       		<input type="text" name="fullname" placeholder="Full Name" size="30"><br><br>
+       		<input type="text" name="email" size="30" placeholder="Email"><br><br>
+       		<input type="text" name="mobileno" placeholder="Mobile No" size="30"><br><br>
+       		<select name="country">
+				<option value="default">-- Country --</option>
+				<option value="india">India</option>
+            	<option value="america">United States of America</option>
+            	<option value="uae">United Arab Emirates</option>
+                <option value="australia">Australia</option>
+                <option value="uk">United Kingdom</option>
+       		</select><br><br>
+       		<textarea rows="3" cols="32">
+       		</textarea><br><br>
+       		<input type="submit" value="Submit" class="btn">
+    	</form>
+    </div>
+    <div id="reach">
+    	<h2>Reach us</h2>
+        <p>87, Jawahar Market, Old Dhanmandi, Sri Ganganagar, Rajasthan-335001, India.</p>
+    	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3457.705013198582!2d73.87267301631152!3d29.930393466509585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3917b50f05555555%3A0xbd78cddef630be85!2sSetia%20Jewellers!5e0!3m2!1sen!2sin!4v1576333375138!5m2!1sen!2sin" width="100%" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+    </div>
+	<div class="clr"></div>
+    <div id="footer">
+		<p>Copyright @setiaJewel. All rights reserved</p>
+    </div>
+    <script>
+			function myFunction() 
+			{
+  				var x = document.getElementById("myTopnav");
+  				if (x.className === "topnav") 
+				{
+    				x.className += " responsive";
+  				} 
+				else 
+				{
+    				x.className = "topnav";
+  				}
+			}
+     </script>
+</body>
+</html>

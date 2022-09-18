@@ -1,0 +1,86 @@
+<!doctype html>
+	<head>
+		<title>Home</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+	<body>
+		<header>
+			<div id="logo">
+				<img src="Images/Setia2.jpg" alt="setia" height="110">
+			</div>
+			<div class="topnav" id="myTopnav">
+				<a href="#" class="active">Home</a>
+				<a href="About-us.html">About</a>
+				<a href="Jewellery.html">Jewellery</a>
+				<a href="Bangles.html">Bangles</a>
+				<a href="Rings.html">Rings</a>
+				<a href="Earrings.html">Earrings</a>
+				<a href="Contact-us.html">Contact</a>
+				<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+					<i class="fa fa-bars"></i>
+				</a>
+			</div>
+		</header>
+		<div id="shop">
+			<img src="Images/jewel-poster.jpg" width="100%" height="600" alt="jp">
+		</div>
+		<div id="container">	
+			<div id="jewellery">
+				<h2>JEWELLERY</h2>
+				<p>Totally unique handmade necklaces, bracelets and rings</p>
+				<img src="Images/jewellery-fb3.jpg" alt="jewel" width="100%">
+				<button class="button b1">SHOP NOW</button>
+			</div>
+			<div id="bridal">
+				<h2>BRIDAL</h2>
+				<p>Beautiful bridal headpieces and handmade for your special day that for every one</p>
+				<img src="Images/hairbands2.jpg" alt="hb" width="100%">
+				<button class="button b1">SHOP NOW</button>
+			</div>
+			<div id="bespoke">
+				<h2>BESPOKE</h2>
+				<p>Immortalize your favourite photo in a beautiful piece of handmade jewellery</p>
+				<img src="Images/Locket2.jpg" alt="locket" width="100%">
+				<button class="button b1">SHOP NOW</button>
+			</div>
+			<div id="laya">
+				<h2>LAYA</h2>
+				<p>Laya is for those special few who don't prefer the ordinary.</p>
+				<img src="Images/Laya.jpg" alt="laya" width="100%">
+				<button class="button b1">SHOP NOW</button>
+			</div>
+		</div>
+		<div class="clr"></div>
+		<div id="paragraph">
+			<h2>Welcome to Setia Jewellers</h2>
+			<p>Hello there! Welcome to my website, where you can browse and order 
+			all of my handmade creations from my up-cycled
+			jewellery to my handpiece including my new bridal range.
+			Can't find exactly what you are looking for? why not commission your
+			own bespoke piece of jewellery or handpiece by visiting the <b>'Bespoke'</b>
+			page? You may also interested in learning how to design and make
+			your own jewellery and details of upcoming jewellery making courses
+			can be found on <b>'Courses'</b> page.</p>
+		</div>
+		<div id="footer">
+			<p>Copyright @setiaJewel. All rights reserved</p>
+		</div>
+		<script>
+			function myFunction() 
+			{
+				var x = document.getElementById("myTopnav");
+				if (x.className === "topnav") 
+				{
+					x.className += " responsive";
+				} 
+				else 
+				{
+					x.className = "topnav";
+				}
+			}
+		</script>
+	</body>
+</html>
